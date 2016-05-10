@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/songhao/Documents/my_codes/mini_monitor"
+VIRTUAL_ENV="/root/mini_monitor"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

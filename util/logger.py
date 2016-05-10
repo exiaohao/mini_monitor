@@ -43,7 +43,7 @@ class logger_tool(object):
                 }
             }
         ]
-        client = InfluxDBClient(host='192.168.3.10', port=8086, username='tale', password='tale', database='tale')
+        client = InfluxDBClient(host='127.0.0.1', port=8086, username='tale', password='0541029b-4d66-4544', database='tale')
         # client.create_database('tale')
         client.write_points(json_body)
         # print('Insert InfluxDB:', result, json_body, '\n')

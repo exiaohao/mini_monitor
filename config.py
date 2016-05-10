@@ -1,5 +1,5 @@
 class App:
-    mongo_server = '192.168.3.10'
+    mongo_server = '127.0.0.1'
     mongo_port = 27017
     mongo_collection = 'mini_monitor'
 
